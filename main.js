@@ -1,10 +1,9 @@
-// Update this constant with your ServiceNow credentials
+ //Update this constant with your ServiceNow credentials
 const options = {
   url: 'https://dev90885.service-now.com',
   username: 'admin',
   password: 'Santro79#'
 };
-
 
 /**
  * Import the Node.js request package.
@@ -154,8 +153,6 @@ function post(serviceNowTable, callback) {
 
 }
 
-
-
 // This test function calls your request and logs any errors.
 /*
  * This section is used to test your project.
@@ -177,3 +174,6 @@ function main() {
     console.log(`\nResponse returned from POST request:\n${JSON.stringify(data)}`)
   });
 }
+
+// Call main to run it.
+main();
