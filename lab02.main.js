@@ -1,9 +1,10 @@
- //Update this constant with your ServiceNow credentials
+// Update this constant with your ServiceNow credentials
 const options = {
-  url: 'https://dev90885.service-now.com',
+  url: 'https://dev99974.service-now.com/',
   username: 'admin',
-  password: 'Santro79#'
+  password: 'pKa84ZNxvBqX'
 };
+
 
 /**
  * Import the Node.js request package.
@@ -94,6 +95,8 @@ function get(serviceNowTable, callback) {
   });
 
 }
+
+
 /**
  * @function post
  * @description Call the ServiceNow POST API.
@@ -115,7 +118,7 @@ function post(serviceNowTable, callback) {
   // that holds the HTTP request method, credentials, and the API's URL.
   // Some properties are hardcoded, like the method and part of the URI.
   // Some properties are read from global const options.
-  // Some properties are passed into function get() through parameters.
+  // Some properties are passed into function post() through parameters.
   const requestOptions = {
     method: 'POST',
     auth: {
@@ -153,7 +156,6 @@ function post(serviceNowTable, callback) {
 
 }
 
-// This test function calls your request and logs any errors.
 /*
  * This section is used to test your project.
  * We will test both get() and post() functions.

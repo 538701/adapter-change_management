@@ -201,4 +201,4 @@ class ServiceNowConnector {
 
 }
 
-module.exports = ServiceNowConnector; 
+module.exports = ServiceNowConnector;
