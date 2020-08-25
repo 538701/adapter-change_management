@@ -10,11 +10,6 @@
   ],
   "methods": [
     {
-<<<<<<< HEAD
-      "name": "getRecord",
-      "summary": "Get First Change Ticket",
-      "description": "Get the first ServiceNow change management ticket.",
-=======
     "name": "getRecord",
     "summary": "Get Change Tickets",
     "description": "Get the first ServiceNow change management ticket.",
@@ -42,26 +37,16 @@
       "name": "postRecord",
       "summary": "Create Change Ticket",
       "description": "Create a ServiceNow change management ticket.",
->>>>>>> ca3caba491c961de1ee79f8de6c6bf4be5f550b4
       "input": [],
       "output": {
         "name": "changeTicket",
         "type": "object",
-<<<<<<< HEAD
-        "description": "The first change change management ticket document.",
-        "schema": {
-          "title": "changeTicket",
-          "$ref": "changeRequest#/definitions/changeTicket"
-        }
-      },
-=======
         "description": "An object return as a change management ticket document.",
         "schema": {
             "title": "changeTicket",
             "$ref": "changeRequest#/definitions/changeTicket"
         }
       },   
->>>>>>> ca3caba491c961de1ee79f8de6c6bf4be5f550b4
       "roles": [
         "admin",
         "engineer",

@@ -1,33 +1,6 @@
 {
   "$id": "changeRequest",
   "definitions": {
-<<<<<<< HEAD
-    "changeRequest": {
-      "title": "changeTicket",
-      "type": "object",
-      "properties": {
-        "statusCode": {
-          "type": "integer",
-          "default": 200,
-          "examples": [
-            200
-          ]
-        },
-        "body": {
-          "type": "string",
-          "default": "",
-          "examples": [
-            ""
-          ]
-        }
-      }
-    }
-  },
-  "required": [
-    "statusCode",
-    "body"
-  ]
-=======
     "changeTicket": {
       "title": "changeTicket",
       "type": "object",
@@ -83,5 +56,4 @@
       "additionalProperties": false
     }
   }
->>>>>>> ca3caba491c961de1ee79f8de6c6bf4be5f550b4
 }
